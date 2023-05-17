@@ -1,0 +1,33 @@
+
+clear all
+close all
+addpath('/data/matlab_functions/');
+
+
+%%
+
+% read results file (output of GFP_RFP)foldername = '/bigdata/microscope_images/Etay/FDISCO/Analysis/Males';
+fname1 = dir([foldername,'/*realcells_subregions_summery*']);
+fname1 = {fname1.name}'
+fname2 = dir([foldername,'/*realcells_result*']);
+fname2 = {fname2.name}'
+cd(foldername);
+file_cell = cell(length(fname1),1);
+file_cell2 = cell(length(fname2),1);
+regionid_uni = [];
+for i=1:length(fname1)
+    t = readtable(fname1{i});
+    hline = t.Properties.VariableNames;
+    file_cell{i} = table2cell(t);
+    regionid_uni = unique([regionid_uni;cell2mat(file_cell{i}(:,2))]);
+end
+
+for i=1:length(fname2)
+    t = readtable(fname2{i});
+    hline = t.Properties.VariableNames;
+    file_cell2{i} = table2cell(t);
+end
+
+
+datamat = zeros(length(regionid_uni),6*length(fname1));
+regioninfo = cell(length(regionid_uni),4);
