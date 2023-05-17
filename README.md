@@ -1,5 +1,5 @@
-### Sexual_Dimorphism_Mosue _Brain
-## This repository contains MATLAB files for various image processing and analysis tasks that were buult and cpustomized for the “Sexual dimorphism in synaptic inputs to mouse amygdala and orbital cortex” article, by Muhammad Tibi from the Zeisel lab, biotechnology and food emgineering faculty , Technion . The MATLAB files included in #this repository are as follows:
+## Sexual_Dimorphism_Mosue _Brain
+# This repository contains MATLAB files for various image processing and analysis tasks that were buult and cpustomized for the “Sexual dimorphism in synaptic inputs to mouse amygdala and orbital cortex” article, by Muhammad Tibi from the Zeisel lab, biotechnology and food emgineering faculty , Technion . The MATLAB files included in #this repository are as follows:
     • geobrain.m: This script aligns mouse coronal brain sections with the Allen Brain Atlas library. It provides a convenient way to perform spatial registration and analysis on brain images.
     • getstat.m: This script is used to calculate statistics for table files and conditions. It allows users to extract relevant information and perform statistical analysis on their data.
     • spot.m: This MATLAB script, named spot.m, is used for counting cells, nuclei, and molecules in IHC and FISH experiments. It provides an automated and efficient way to analyze images and quantify results.
