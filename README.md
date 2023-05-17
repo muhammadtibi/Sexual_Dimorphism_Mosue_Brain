@@ -13,5 +13,5 @@ This repository is licensed under the MIT License. You are free to use, modify, 
 ## Acknowledgements
 If you use these MATLAB files in your research or project, please consider citing this repository or providing acknowledgement.
 Contact
-For additonal  data and subfunctions that can be provided by sepcific request,and if you have any questions or inquiries regarding this repository, please contact me by email [muhammadftibi@gmail.com].
+For additonal  data and subfunctions that can be provided by specific request,and if you have any questions or inquiries regarding this repository, please contact me by email [muhammadftibi@gmail.com].
  
