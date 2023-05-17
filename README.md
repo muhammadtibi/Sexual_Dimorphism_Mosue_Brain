@@ -7,7 +7,7 @@
     • reviewer.m: The reviewer.m script is a comprehensive tool for reviewing and annotating images. It provides an interactive interface for visual inspection, annotation, and comparison of images ands brains.
 Feel free to explore, use, and modify these MATLAB files according to your needs.  instructions and usage guidelines are provided within each file. If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. 
 ## Requirements
-#The MATLAB files included in this repository require MATLAB software to run. Make sure you have MATLAB installed on your system before using these scripts. Additonally some addiitonal toolboxes and add-ons might be required dependinmg on yoiur version and configurations. 
+The MATLAB files included in this repository require MATLAB software to run. Make sure you have MATLAB installed on your system before using these scripts. Additonally some addiitonal toolboxes and add-ons might be required dependinmg on yoiur version and configurations. 
 ## License
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code in this repository, subject to the terms and conditions of the license.
 ## Acknowledgements
